@@ -1,11 +1,6 @@
 "use client"
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
-import { Phone, Mail, MapPin, Clock, MessageCircle, Send } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react"
 
 const contactInfo = [
   {
@@ -35,24 +30,11 @@ const contactInfo = [
 ]
 
 export function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  })
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission
-    console.log("Form submitted:", formData)
-  }
 
   return (
     <section id="contact" className="py-20">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="max-w-2xl mx-auto">
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
@@ -101,72 +83,6 @@ export function Contact() {
                 </a>
               </div>
             </div>
-          </div>
-
-          {/* Contact Form */}
-          <div className="bg-card rounded-2xl p-8 border border-border shadow-lg">
-            <h3 className="text-xl font-semibold text-foreground mb-6">Send us a message</h3>
-            <form onSubmit={handleSubmit} className="space-y-5">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="name">Full Name</Label>
-                  <Input
-                    id="name"
-                    placeholder="John Doe"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    required
-                  />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="john@example.com"
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    required
-                  />
-                </div>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="phone">Phone</Label>
-                  <Input
-                    id="phone"
-                    placeholder="+374 XX XXX XXX"
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  />
-                </div>
-                <div className="space-y-2">
-                  <Label htmlFor="subject">Subject</Label>
-                  <Input
-                    id="subject"
-                    placeholder="Legal Inquiry"
-                    value={formData.subject}
-                    onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                    required
-                  />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="message">Message</Label>
-                <Textarea
-                  id="message"
-                  placeholder="Describe your legal matter..."
-                  rows={5}
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  required
-                />
-              </div>
-              <Button type="submit" size="lg" className="w-full gap-2">
-                <Send className="h-4 w-4" />
-                Send Message
-              </Button>
-            </form>
           </div>
         </div>
       </div>
