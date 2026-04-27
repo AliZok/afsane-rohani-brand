@@ -20,18 +20,12 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
           <div className="relative">
-            <div className="aspect-[4/5] relative rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="w-32 h-32 mx-auto bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-4xl font-serif font-bold text-primary-foreground">AR</span>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-serif font-bold text-foreground">Afsane Rohani</h3>
-                    <p className="text-muted-foreground">Legal Advisor</p>
-                  </div>
-                </div>
-              </div>
+            <div className="aspect-[4/5] relative rounded-2xl overflow-hidden">
+              <img 
+                src="/images/some.png" 
+                alt="Afsane Rohani - Legal Advisor" 
+                className="w-full h-full object-cover"
+              />
             </div>
             
             {/* Stats Cards */}
