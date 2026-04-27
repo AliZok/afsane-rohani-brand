@@ -124,3 +124,40 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Scrollbar styles using theme colors - moved outside layer for better specificity */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(180, 65%, 23%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(180, 62%, 32%);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(180, 55%, 20%);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(180, 64%, 32%);
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(180, 41%, 29%) transparent;
+}
+
+.dark * {
+  scrollbar-color: hsl(180 70% 55%) transparent;
+}
