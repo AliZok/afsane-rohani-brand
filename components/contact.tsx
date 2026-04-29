@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "contact@atbeptka.com",
-    href: "mailto:contact@atbeptka.com",
+    value: "contact@BALANCE.com",
+    href: "mailto:contact@BALANCE.com",
   },
   {
     icon: MapPin,

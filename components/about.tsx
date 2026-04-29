@@ -23,7 +23,7 @@ export function About() {
             <div className="aspect-[4/5] relative rounded-2xl overflow-hidden">
               <img 
                 src="/images/some.png" 
-                alt="Afsane Rohani - Legal Advisor" 
+                alt="Alex Jones - Legal Advisor" 
                 className="w-full h-full object-cover"
               />
             </div>

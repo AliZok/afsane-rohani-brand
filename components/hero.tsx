@@ -70,14 +70,14 @@ export function Hero() {
                   
                   <div className="space-y-1">
                     <div className="bg-secondary text-secondary-foreground px-6 py-2 rounded">
-                      <span className="font-semibold tracking-wider">ATBEPTKA</span>
+                      <span className="font-semibold tracking-wider">BALANCE</span>
                     </div>
                   </div>
                   
                   <div className="space-y-1">
                     <h3 className="text-2xl font-serif">
-                      <span className="text-foreground">Afsane </span>
-                      <span className="text-primary font-bold">Rohani</span>
+                      <span className="text-foreground">Alex </span>
+                      <span className="text-primary font-bold">Jones</span>
                     </h3>
                     <p className="text-muted-foreground">Legal Advisor</p>
                   </div>

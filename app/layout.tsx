@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Afsane Rohani | ATBEPTKA - Legal & Residential Services',
+  title: 'Alex Jones | BALANCE - Legal & Residential Services',
   description: 'Expert legal advisory services specializing in residential law, real estate, and property matters. Trusted counsel for all your legal needs.',
   generator: 'v0.app',
   icons: {

@@ -26,7 +26,7 @@ export function Header() {
               <Scale className="h-5 w-5 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
-              <span className="font-serif text-lg font-bold text-foreground leading-tight">ATBEPTKA</span>
+              <span className="font-serif text-lg font-bold text-foreground leading-tight">BALANCE</span>
               <span className="text-[10px] text-muted-foreground tracking-wider">LEGAL SERVICES</span>
             </div>
           </a>

@@ -31,7 +31,7 @@ export function Footer() {
                 <Scale className="h-5 w-5 text-primary-foreground" />
               </div>
               <div className="flex flex-col">
-                <span className="font-serif text-lg font-bold text-secondary-foreground leading-tight">ATBEPTKA</span>
+                <span className="font-serif text-lg font-bold text-secondary-foreground leading-tight">BALANCE</span>
                 <span className="text-[10px] text-secondary-foreground/70 tracking-wider">LEGAL SERVICES</span>
               </div>
             </Link>
@@ -81,9 +81,9 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@atbeptka.com" className="flex items-center gap-3 text-secondary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                <a href="mailto:contact@BALANCE.com" className="flex items-center gap-3 text-secondary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                   <Mail className="h-4 w-4" />
-                  contact@atbeptka.com
+                  contact@BALANCE.com
                 </a>
               </li>
               <li>
@@ -102,7 +102,7 @@ export function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-secondary-foreground/70 text-sm">
-              © {new Date().getFullYear()} ATBEPTKA Legal Services. All rights reserved.
+              © {new Date().getFullYear()} BALANCE Legal Services. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link href="#" className="text-secondary-foreground/70 hover:text-primary-foreground transition-colors text-sm">

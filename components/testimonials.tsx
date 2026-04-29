@@ -5,25 +5,25 @@ const testimonials = [
   {
     name: "Maria Petrosyan",
     role: "Home Buyer",
-    content: "Afsane made our first home purchase a smooth and stress-free experience. Her expertise in residential law was invaluable, and she guided us through every step with patience and professionalism.",
+    content: "Alex made our first home purchase a smooth and stress-free experience. Her expertise in residential law was invaluable, and she guided us through every step with patience and professionalism.",
     rating: 5,
   },
   {
     name: "David Sargsyan",
     role: "Property Investor",
-    content: "I've worked with many attorneys, but Afsane's attention to detail and knowledge of property law is exceptional. She protected my interests in a complex commercial deal.",
+    content: "I've worked with many attorneys, but Alex's attention to detail and knowledge of property law is exceptional. She protected my interests in a complex commercial deal.",
     rating: 5,
   },
   {
     name: "Anna Hovhannisyan",
     role: "Landlord",
-    content: "Excellent service in resolving a difficult tenant dispute. Afsane's legal strategy was spot-on, and she achieved a favorable outcome while maintaining professionalism throughout.",
+    content: "Excellent service in resolving a difficult tenant dispute. Alex's legal strategy was spot-on, and she achieved a favorable outcome while maintaining professionalism throughout.",
     rating: 5,
   },
   {
     name: "Robert Grigoryan",
     role: "Real Estate Developer",
-    content: "Afsane has been our go-to legal advisor for all property matters. Her expertise in zoning and permits has been crucial for our development projects.",
+    content: "Alex has been our go-to legal advisor for all property matters. Her expertise in zoning and permits has been crucial for our development projects.",
     rating: 5,
   },
 ]
@@ -39,7 +39,7 @@ export function Testimonials() {
           </h2>
           <p className="text-muted-foreground">
             Don&apos;t just take our word for it. Here&apos;s what our clients have to say about 
-            their experience working with ATBEPTKA Legal Services.
+            their experience working with BALANCE Legal Services.
           </p>
         </div>
 
